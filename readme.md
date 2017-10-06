@@ -12,10 +12,13 @@ Running the map:
 
 - Open in Hammer and click the "Run Map!" icon 
 
-Screenshot:
+# Screenshot:
 
-![Screenshot](screenshot.PNG)
 ![Screenshot](screenshot-1.jpg)
 ![Screenshot](screenshot-2.jpg)
 ![Screenshot](screenshot-3.jpg)
 ![Screenshot](screenshot-4.jpg)
+
+# Overview:
+
+![Screenshot](screenshot.PNG)
