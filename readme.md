@@ -14,10 +14,10 @@ Running the map:
 
 # Screenshot:
 
-![Screenshot](screenshot-1.jpg)
-![Screenshot](screenshot-2.jpg)
-![Screenshot](screenshot-3.jpg)
-![Screenshot](screenshot-4.jpg)
+![Screenshot](screenshots/screenshot-1.jpg)
+![Screenshot](screenshots/screenshot-2.jpg)
+![Screenshot](screenshots/screenshot-3.jpg)
+![Screenshot](screenshots/screenshot-4.jpg)
 
 # Overview:
 
