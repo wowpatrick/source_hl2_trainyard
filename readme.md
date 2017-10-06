@@ -21,4 +21,4 @@ Running the map:
 
 # Overview:
 
-![Screenshot](screenshot.PNG)
+![Screenshot](screenshots/screenshot.PNG)
