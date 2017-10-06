@@ -5061,3 +5061,361 @@ LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_hl2_trai
 
 Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
 Cannot load the static props... encountered a stale map version. Re-vbsp the map.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Half-Life 2\hl2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/arena0041/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (60.00 312.00 -228.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 14 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Bad surface extents point: 1558.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 640.000000 128.000000
+Bad surface extents point: 1558.000000 640.000000 128.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/RED_GRASS around point (2220.5 2532.0 128.0)
+	(dimension: 1, 127>126)
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Cannot load the static props... encountered a stale map version. Re-vbsp the map.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Half-Life 2\hl2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/arena0041/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (60.00 312.00 -228.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 14 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Bad surface extents point: 1558.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 640.000000 128.000000
+Bad surface extents point: 1558.000000 640.000000 128.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/RED_GRASS around point (2220.5 2532.0 128.0)
+	(dimension: 1, 127>126)
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Error opening d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Error opening d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Half-Life 2\hl2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/arena0041/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (60.00 312.00 -228.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 14 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Bad surface extents point: 1558.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 640.000000 128.000000
+Bad surface extents point: 1558.000000 640.000000 128.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/RED_GRASS around point (2220.5 2532.0 128.0)
+	(dimension: 1, 127>126)
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Error opening d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Error opening d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Half-Life 2\hl2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/arena0041/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (60.00 312.00 -228.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 14 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Bad surface extents point: 1558.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 640.000000 128.000000
+Bad surface extents point: 1558.000000 640.000000 128.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/RED_GRASS around point (2220.5 2532.0 128.0)
+	(dimension: 1, 127>126)
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Cannot load the static props... encountered a stale map version. Re-vbsp the map.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Half-Life 2\hl2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/arena0041/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (60.00 312.00 -228.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 14 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Bad surface extents point: 1558.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 4424.000000 128.000000
+Bad surface extents point: 2883.000000 640.000000 128.000000
+Bad surface extents point: 1558.000000 640.000000 128.000000
+Bad surface extents - surface is too big to have a lightmap
+	material NATURE/RED_GRASS around point (2220.5 2532.0 128.0)
+	(dimension: 1, 127>126)
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+Cannot load the static props... encountered a stale map version. Re-vbsp the map.
+
+
+materialPath: D:\SteamLibrary\steamapps\common\Half-Life 2\hl2\materials
+Loading D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+Patching WVT material: maps/arena0041/nature/red_grass_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (60.00 312.00 -228.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 14 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_09*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (584530 bytes)
+Error! prop_static using model "models/props_debris/concrete_chunk01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_debris/concrete_chunk01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 2115 texinfos to 1085
+Reduced 323 texdatas to 242 (13005 bytes to 9767)
+Writing D:\Games\game-dev\Source Modding\Maps\source_hl2_trainyard\Arena0041.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+reading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+LoadPortals: couldn't read d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+No vis information, direct lighting only.
+7932 faces
+4304606 square feet [619863232.00 square inches]
+11 Displacements
+97554 Square Feet [14047865.00 Square Inches]
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0250 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes               1258/8192        15096/98304    (15.4%) 
+brushsides            8129/65536       65032/524288   (12.4%) 
+planes                2794/65536       55880/1310720  ( 4.3%) 
+vertexes             12845/65536      154140/786432   (19.6%) 
+nodes                 5525/65536      176800/2097152  ( 8.4%) 
+texinfos              1085/12288       78120/884736   ( 8.8%) 
+texdata                242/2048         7744/65536    (11.8%) 
+dispinfos               11/0            1936/0        ( 0.0%) 
+disp_verts             875/0           17500/0        ( 0.0%) 
+disp_tris             1408/0            2816/0        ( 0.0%) 
+disp_lmsamples      130778/0          130778/0        ( 0.0%) 
+faces                 7932/65536      444192/3670016  (12.1%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             3102/65536      173712/3670016  ( 4.7%) 
+leaves                5527/65536      176864/2097152  ( 8.4%) 
+leaffaces             8927/65536       17854/131072   (13.6%) 
+leafbrushes           3110/65536        6220/131072   ( 4.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            49626/512000     198504/2048000  ( 9.7%) 
+edges                28186/256000     112744/1024000  (11.0%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1010/32768       10100/327680   ( 3.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         15213/65536       30426/131072   (23.2%) 
+cubemapsamples          24/1024          384/16384    ( 2.3%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     6406616/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       34266/393216   ( 8.7%) 
+LDR ambient table     5527/65536       22108/262144   ( 8.4%) 
+HDR ambient table     5527/65536       22108/262144   ( 8.4%) 
+LDR leaf ambient     22802/65536      638456/1835008  (34.8%) 
+HDR leaf ambient      5527/65536      154756/1835008  ( 8.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/202984   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/28038    ( 0.0%) 
+pakfile               [variable]     2233836/0        ( 0.0%) 
+physics               [variable]      584530/4194304  (13.9%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 21397
+Writing d:\games\game-dev\source modding\maps\source_hl2_trainyard\Arena0041.bsp
+22 seconds elapsed

@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "3576"
-	"mapversion" "783"
+	"editorbuild" "6412"
+	"mapversion" "784"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -80,12 +80,12 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "783"
+	"mapversion" "784"
 	"classname" "worldspawn"
-	"skyname" "sky_day02_09"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day02_09"
 	"targetname" "train yard"
 	solid
 	{
@@ -20391,7 +20391,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[-76 6505 56.1951]"
+				"startposition" "[-76 6505 56.1955]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -20550,7 +20550,7 @@ world
 			dispinfo
 			{
 				"power" "3"
-				"startposition" "[436 6745 56.1927]"
+				"startposition" "[436 6745 56.1923]"
 				"flags" "0"
 				"elevation" "0"
 				"subdiv" "0"
@@ -25201,6 +25201,165 @@ world
 		editor
 		{
 			"color" "0 106 171"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "107714"
+		side
+		{
+			"id" "41748"
+			"plane" "(2883 4424 128) (2883 640 128) (1558 640 128)"
+			"material" "NATURE/RED_GRASS"
+			"uaxis" "[1 0 0 384] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "31"
+			"smoothing_groups" "0"
+			dispinfo
+			{
+				"power" "3"
+				"startposition" "[1558 640 128]"
+				"flags" "0"
+				"elevation" "0"
+				"subdiv" "0"
+				normals
+				{
+					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+				}
+				distances
+				{
+					"row0" "0 0 0 0 0 0 0 0 0"
+					"row1" "0 0 0 0 0 0 0 0 0"
+					"row2" "0 0 0 0 0 0 0 0 0"
+					"row3" "0 0 0 0 0 0 0 0 0"
+					"row4" "0 0 0 0 0 0 0 0 0"
+					"row5" "0 0 0 0 0 0 0 0 0"
+					"row6" "0 0 0 0 0 0 0 0 0"
+					"row7" "0 0 0 0 0 0 0 0 0"
+					"row8" "0 0 0 0 0 0 0 0 0"
+				}
+				offsets
+				{
+					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+				}
+				offset_normals
+				{
+					"row0" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row1" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row2" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row4" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row5" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row6" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row7" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+					"row8" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
+				}
+				alphas
+				{
+					"row0" "0 0 0 0 0 0 0 0 0"
+					"row1" "0 0 0 0 0 0 0 0 0"
+					"row2" "0 0 0 255 255 0 0 0 0"
+					"row3" "0 0 0 0 255 0 0 0 0"
+					"row4" "0 0 0 255 255 0 0 0 0"
+					"row5" "0 0 0 255 255 0 0 0 0"
+					"row6" "0 0 0 0 0 0 0 0 0"
+					"row7" "0 0 0 255 0 0 0 0 0"
+					"row8" "0 0 255 255 0 0 0 0 0"
+				}
+				triangle_tags
+				{
+					"row0" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row1" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row2" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row3" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row4" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row5" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row6" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+					"row7" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
+				}
+				allowed_verts
+				{
+					"10" "-1 -1 -1 -1 -1 -1 -1 -1 -1 -1"
+				}
+			}
+		}
+		side
+		{
+			"id" "41747"
+			"plane" "(1558 640 120) (2883 640 120) (2883 4424 120)"
+			"material" "CONCRETE/CONCRETEFLOOR005A"
+			"uaxis" "[1 0 0 204] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41746"
+			"plane" "(2883 4424 120) (2883 640 120) (2883 640 128)"
+			"material" "CONCRETE/CONCRETEFLOOR005A"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41745"
+			"plane" "(2883 640 120) (1558 640 120) (1558 640 128)"
+			"material" "CONCRETE/CONCRETEFLOOR005A"
+			"uaxis" "[1 0 0 204] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41744"
+			"plane" "(1558 4424 120) (2883 4424 120) (2883 4424 128)"
+			"material" "CONCRETE/CONCRETEFLOOR013A_C17"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "41743"
+			"plane" "(1558 640 120) (1558 4424 120) (1558 4424 128)"
+			"material" "CONCRETE/CONCRETEFLOOR013A_C17"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 196 165"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -95214,165 +95373,6 @@ world
 	}
 	solid
 	{
-		"id" "107714"
-		side
-		{
-			"id" "41748"
-			"plane" "(2883 4424 128) (2883 640 128) (1558 640 128)"
-			"material" "NATURE/RED_GRASS"
-			"uaxis" "[1 0 0 384] 0.25"
-			"vaxis" "[0 -1 0 256] 0.25"
-			"rotation" "0"
-			"lightmapscale" "30"
-			"smoothing_groups" "0"
-			dispinfo
-			{
-				"power" "3"
-				"startposition" "[1558 640 128]"
-				"flags" "0"
-				"elevation" "0"
-				"subdiv" "0"
-				normals
-				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-				}
-				distances
-				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0"
-				}
-				offsets
-				{
-					"row0" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row3" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row4" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row5" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-					"row8" "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
-				}
-				offset_normals
-				{
-					"row0" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row1" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row2" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row3" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row4" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row5" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row6" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row7" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-					"row8" "0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1"
-				}
-				alphas
-				{
-					"row0" "0 0 0 0 0 0 0 0 0"
-					"row1" "0 0 0 0 0 0 0 0 0"
-					"row2" "0 0 0 255 255 0 0 0 0"
-					"row3" "0 0 0 0 255 0 0 0 0"
-					"row4" "0 0 0 255 255 0 0 0 0"
-					"row5" "0 0 0 255 255 0 0 0 0"
-					"row6" "0 0 0 0 0 0 0 0 0"
-					"row7" "0 0 0 255 0 0 0 0 0"
-					"row8" "0 0 255 255 0 0 0 0 0"
-				}
-				triangle_tags
-				{
-					"row0" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row1" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row2" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row3" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row4" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row5" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row6" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-					"row7" "9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9"
-				}
-				allowed_verts
-				{
-					"10" "-1 -1 -1 -1 -1 -1 -1 -1 -1 -1"
-				}
-			}
-		}
-		side
-		{
-			"id" "41747"
-			"plane" "(1558 640 120) (2883 640 120) (2883 4424 120)"
-			"material" "CONCRETE/CONCRETEFLOOR005A"
-			"uaxis" "[1 0 0 204] 0.25"
-			"vaxis" "[0 -1 0 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "41746"
-			"plane" "(2883 4424 120) (2883 640 120) (2883 640 128)"
-			"material" "CONCRETE/CONCRETEFLOOR005A"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "41745"
-			"plane" "(2883 640 120) (1558 640 120) (1558 640 128)"
-			"material" "CONCRETE/CONCRETEFLOOR005A"
-			"uaxis" "[1 0 0 204] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "41744"
-			"plane" "(1558 4424 120) (2883 4424 120) (2883 4424 128)"
-			"material" "CONCRETE/CONCRETEFLOOR013A_C17"
-			"uaxis" "[1 0 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "41743"
-			"plane" "(1558 640 120) (1558 4424 120) (1558 4424 128)"
-			"material" "CONCRETE/CONCRETEFLOOR013A_C17"
-			"uaxis" "[0 1 0 0] 0.25"
-			"vaxis" "[0 0 -1 0] 0.25"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 196 165"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	solid
-	{
 		"id" "162164"
 		side
 		{
@@ -99266,11 +99266,11 @@ entity
 	"id" "15913"
 	"classname" "prop_static"
 	"angles" "59.5 129 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/light_spotlight01_lamp.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-3.85803 -122.496 649.132"
 	editor
 	{
@@ -99285,13 +99285,14 @@ entity
 {
 	"id" "15942"
 	"classname" "light_spot"
-	"angles" "-59.5 129 0"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "45"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-59.5 129 0"
 	"pitch" "-59.5"
 	"origin" "-10.4986 -114.296 639.099"
 	editor
@@ -99307,13 +99308,13 @@ entity
 {
 	"id" "15932"
 	"classname" "point_spotlight"
+	"angles" "59.5 129 0"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "59.5 129 0"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "-9.2211 -115.873 642.546"
 	editor
 	{
@@ -99329,11 +99330,11 @@ entity
 	"id" "16112"
 	"classname" "prop_static"
 	"angles" "0 309 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/light_spotlight01_base.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-1.89204 -124.924 648.892"
 	editor
 	{
@@ -99349,11 +99350,11 @@ entity
 	"id" "16150"
 	"classname" "prop_static"
 	"angles" "59.5 58.5 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/light_spotlight01_lamp.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "768.421 -123.128 649.24"
 	editor
 	{
@@ -99368,13 +99369,14 @@ entity
 {
 	"id" "16154"
 	"classname" "light_spot"
-	"angles" "-59.5 58.5 0"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "45"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-59.5 58.5 0"
 	"pitch" "-59.5"
 	"origin" "773.934 -114.131 639.207"
 	editor
@@ -99390,13 +99392,13 @@ entity
 {
 	"id" "16159"
 	"classname" "point_spotlight"
+	"angles" "59.5 58.5 0"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "59.5 58.5 0"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "772.873 -115.861 642.654"
 	editor
 	{
@@ -99412,11 +99414,11 @@ entity
 	"id" "16161"
 	"classname" "prop_static"
 	"angles" "0 238.5 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/light_spotlight01_base.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "766.788 -125.791 649"
 	editor
 	{
@@ -99432,11 +99434,11 @@ entity
 	"id" "18392"
 	"classname" "prop_static"
 	"angles" "59.5 91 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/light_spotlight01_lamp.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "384.055 -118.46 646.632"
 	editor
 	{
@@ -99451,13 +99453,14 @@ entity
 {
 	"id" "18396"
 	"classname" "light_spot"
-	"angles" "-59.5 91 0"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "45"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-59.5 91 0"
 	"pitch" "-59.5"
 	"origin" "383.871 -107.91 636.599"
 	editor
@@ -99473,13 +99476,13 @@ entity
 {
 	"id" "18401"
 	"classname" "point_spotlight"
+	"angles" "59.5 91 0"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "59.5 91 0"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "383.907 -109.939 640.046"
 	editor
 	{
@@ -99495,11 +99498,11 @@ entity
 	"id" "18403"
 	"classname" "prop_static"
 	"angles" "0 271 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/light_spotlight01_base.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "384.11 -121.584 646.392"
 	editor
 	{
@@ -99515,11 +99518,11 @@ entity
 	"id" "3906"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/overpass_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-680.517 1407.37 391.869"
 	editor
 	{
@@ -99536,11 +99539,11 @@ entity
 	"id" "3886"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/overpass_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-1736.5 1407.37 391.869"
 	editor
 	{
@@ -99557,11 +99560,11 @@ entity
 	"id" "3874"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/overpass_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "375.483 1407.37 391.869"
 	editor
 	{
@@ -99578,11 +99581,11 @@ entity
 	"id" "3835"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/overpass_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1431.5 1407.37 391.869"
 	editor
 	{
@@ -99599,11 +99602,11 @@ entity
 	"id" "30645"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_512_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246.09 463.167 203"
 	editor
 	{
@@ -99620,11 +99623,11 @@ entity
 	"id" "30653"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_512_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246.09 463.167 253"
 	editor
 	{
@@ -99641,11 +99644,11 @@ entity
 	"id" "30614"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_512_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246.09 463.167 153"
 	editor
 	{
@@ -99662,11 +99665,11 @@ entity
 	"id" "30675"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_512_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246.02 -48.6655 203"
 	editor
 	{
@@ -99683,11 +99686,11 @@ entity
 	"id" "30679"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_512_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246.02 -48.6655 253"
 	editor
 	{
@@ -99704,11 +99707,11 @@ entity
 	"id" "30683"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_512_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246.02 -48.6655 153"
 	editor
 	{
@@ -99725,11 +99728,11 @@ entity
 	"id" "30832"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_corner128r_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1291.16 -369 253"
 	editor
 	{
@@ -99746,11 +99749,11 @@ entity
 	"id" "30870"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_corner128r_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1291.16 -369 203"
 	editor
 	{
@@ -99767,11 +99770,11 @@ entity
 	"id" "30878"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/pipeset32d_corner128r_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1291.16 -369 153"
 	editor
 	{
@@ -99816,11 +99819,11 @@ entity
 	"id" "14457"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train001.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-268.783 -180.719 246.857"
 	editor
 	{
@@ -99837,13 +99840,13 @@ entity
 	"id" "16221"
 	"classname" "env_lightglow"
 	"angles" "0 0 0"
-	"rendercolor" "255 255 255"
-	"VerticalGlowSize" "30"
-	"HorizontalGlowSize" "30"
-	"MinDist" "1"
-	"MaxDist" "50"
 	"GlowProxySize" "2.0"
 	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "30"
+	"MaxDist" "50"
+	"MinDist" "1"
+	"rendercolor" "255 255 255"
+	"VerticalGlowSize" "30"
 	"origin" "-221 148 212.857"
 	editor
 	{
@@ -99860,13 +99863,13 @@ entity
 	"id" "16231"
 	"classname" "env_lightglow"
 	"angles" "0 0 0"
-	"rendercolor" "255 255 255"
-	"VerticalGlowSize" "30"
-	"HorizontalGlowSize" "30"
-	"MinDist" "1"
-	"MaxDist" "50"
 	"GlowProxySize" "2.0"
 	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "30"
+	"MaxDist" "50"
+	"MinDist" "1"
+	"rendercolor" "255 255 255"
+	"VerticalGlowSize" "30"
 	"origin" "-317 148 212.857"
 	editor
 	{
@@ -99883,13 +99886,13 @@ entity
 	"id" "16554"
 	"classname" "ambient_generic"
 	"health" "10"
+	"message" "Trainyard.train_idle"
 	"pitch" "100"
 	"pitchstart" "100"
 	"radius" "1250"
-	"targetname" "train_idle"
-	"message" "Trainyard.train_idle"
 	"SourceEntityName" "intro_train_1"
 	"spawnflags" "0"
+	"targetname" "train_idle"
 	"origin" "-269 -171 253"
 	editor
 	{
@@ -99934,11 +99937,11 @@ entity
 	"id" "43091"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_rus2002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1280.35 468 906.834"
 	editor
 	{
@@ -99954,11 +99957,11 @@ entity
 	"id" "43095"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_e002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1280.35 587 907.078"
 	editor
 	{
@@ -99974,11 +99977,11 @@ entity
 	"id" "43099"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_k002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1280.35 528 907.078"
 	editor
 	{
@@ -99994,11 +99997,11 @@ entity
 	"id" "43103"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_rus2002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1280.35 400 905.834"
 	editor
 	{
@@ -100014,11 +100017,11 @@ entity
 	"id" "43107"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/scaffolding01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1328.72 492.707 905.078"
 	editor
 	{
@@ -100033,13 +100036,14 @@ entity
 {
 	"id" "66551"
 	"classname" "light_spot"
-	"angles" "-50 90 0"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "45"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-50 90 0"
 	"pitch" "-50"
 	"origin" "807.362 -1579.49 952.281"
 	editor
@@ -100055,13 +100059,13 @@ entity
 {
 	"id" "66556"
 	"classname" "point_spotlight"
+	"angles" "50 90 0"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "50 90 0"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "807.666 -1580.92 955"
 	editor
 	{
@@ -100076,13 +100080,14 @@ entity
 {
 	"id" "66696"
 	"classname" "light_spot"
-	"angles" "-50 90 0"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "45"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-50 90 0"
 	"pitch" "-50"
 	"origin" "834.362 -1576.24 974.281"
 	editor
@@ -100098,13 +100103,13 @@ entity
 {
 	"id" "66701"
 	"classname" "point_spotlight"
+	"angles" "50 90 0"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "50 90 0"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "834.666 -1577.67 977"
 	editor
 	{
@@ -100654,11 +100659,11 @@ entity
 	"id" "50378"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "155 3431.51 484"
 	editor
 	{
@@ -100762,8 +100767,8 @@ entity
 {
 	"id" "17900"
 	"classname" "infodecal"
-	"texture" "decals/ivy02"
 	"angles" "0 0 0"
+	"texture" "decals/ivy02"
 	"origin" "-607 1103.83 338.414"
 	editor
 	{
@@ -100778,8 +100783,8 @@ entity
 {
 	"id" "17891"
 	"classname" "infodecal"
-	"texture" "decals/ivy02"
 	"angles" "0 0 0"
+	"texture" "decals/ivy02"
 	"origin" "-607 1394.81 330.019"
 	editor
 	{
@@ -100794,8 +100799,8 @@ entity
 {
 	"id" "17894"
 	"classname" "infodecal"
-	"texture" "decals/ivy02"
 	"angles" "0 0 0"
+	"texture" "decals/ivy02"
 	"origin" "-607 1623.54 329.799"
 	editor
 	{
@@ -100810,8 +100815,8 @@ entity
 {
 	"id" "17897"
 	"classname" "infodecal"
-	"texture" "decals/ivy02"
 	"angles" "0 0 0"
+	"texture" "decals/ivy02"
 	"origin" "-607 1707.56 330.527"
 	editor
 	{
@@ -100826,16 +100831,17 @@ entity
 {
 	"id" "20746"
 	"classname" "prop_door_rotating"
-	"angles" "0 270 0"
-	"hardware" "1"
 	"ajarangles" "0 0 0"
-	"distance" "90"
-	"speed" "100"
-	"returndelay" "-1"
-	"spawnflags" "8192"
+	"angles" "0 270 0"
 	"axis" "685 -131.91 182, 685 -131.91 182"
+	"distance" "90"
+	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"returndelay" "-1"
 	"skin" "4"
+	"spawnflags" "8192"
+	"speed" "100"
 	"origin" "685 -131.909 182"
 	editor
 	{
@@ -100970,19 +100976,20 @@ entity
 {
 	"id" "119212"
 	"classname" "light_spot"
-	"spawnflags" "0"
+	"_cone" "35"
+	"_constant_attn" "2200"
 	"_distance" "0"
 	"_exponent" "4"
-	"_quadratic_attn" "0.5"
-	"_linear_attn" "0"
-	"_constant_attn" "2200"
-	"pitch" "-50"
-	"_cone" "35"
 	"_inner_cone" "60"
-	"angles" "-50 90 -180"
-	"style" "0"
 	"_light" "254 247 203 350"
 	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0.5"
+	"angles" "-50 90 -180"
+	"pitch" "-50"
+	"spawnflags" "0"
+	"style" "0"
 	"origin" "445.509 -623.863 437.622"
 	editor
 	{
@@ -100998,12 +101005,12 @@ entity
 	"id" "119217"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "445.509 -627.863 441.622"
 	editor
 	{
@@ -101018,19 +101025,20 @@ entity
 {
 	"id" "119281"
 	"classname" "light_spot"
-	"spawnflags" "0"
+	"_cone" "35"
+	"_constant_attn" "2200"
 	"_distance" "0"
 	"_exponent" "4"
-	"_quadratic_attn" "0.5"
-	"_linear_attn" "0"
-	"_constant_attn" "2200"
-	"pitch" "-50"
-	"_cone" "35"
 	"_inner_cone" "60"
-	"angles" "-50 90 -180"
-	"style" "0"
 	"_light" "254 247 203 350"
 	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0.5"
+	"angles" "-50 90 -180"
+	"pitch" "-50"
+	"spawnflags" "0"
+	"style" "0"
 	"origin" "585.509 -623.863 437.622"
 	editor
 	{
@@ -101046,12 +101054,12 @@ entity
 	"id" "119286"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "585.509 -627.863 441.622"
 	editor
 	{
@@ -101066,19 +101074,20 @@ entity
 {
 	"id" "119301"
 	"classname" "light_spot"
-	"spawnflags" "0"
+	"_cone" "35"
+	"_constant_attn" "2200"
 	"_distance" "0"
 	"_exponent" "4"
-	"_quadratic_attn" "0.5"
-	"_linear_attn" "0"
-	"_constant_attn" "2200"
-	"pitch" "-50"
-	"_cone" "35"
 	"_inner_cone" "60"
-	"angles" "-50 90 180"
-	"style" "0"
 	"_light" "254 247 203 350"
 	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0.5"
+	"angles" "-50 90 180"
+	"pitch" "-50"
+	"spawnflags" "0"
+	"style" "0"
 	"origin" "195.509 -623.863 437.622"
 	editor
 	{
@@ -101094,12 +101103,12 @@ entity
 	"id" "119306"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "195.509 -627.863 441.622"
 	editor
 	{
@@ -101114,19 +101123,20 @@ entity
 {
 	"id" "119331"
 	"classname" "light_spot"
-	"spawnflags" "0"
+	"_cone" "35"
+	"_constant_attn" "2200"
 	"_distance" "0"
 	"_exponent" "4"
-	"_quadratic_attn" "0.5"
-	"_linear_attn" "0"
-	"_constant_attn" "2200"
-	"pitch" "-50"
-	"_cone" "35"
 	"_inner_cone" "60"
-	"angles" "-50 90 -180"
-	"style" "0"
 	"_light" "254 247 203 350"
 	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0.5"
+	"angles" "-50 90 -180"
+	"pitch" "-50"
+	"spawnflags" "0"
+	"style" "0"
 	"origin" "320.496 -623.863 437.622"
 	editor
 	{
@@ -101142,12 +101152,12 @@ entity
 	"id" "119336"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "320.496 -627.863 441.622"
 	editor
 	{
@@ -101162,19 +101172,20 @@ entity
 {
 	"id" "119341"
 	"classname" "light_spot"
-	"spawnflags" "0"
+	"_cone" "35"
+	"_constant_attn" "2200"
 	"_distance" "0"
 	"_exponent" "4"
-	"_quadratic_attn" "0.5"
-	"_linear_attn" "0"
-	"_constant_attn" "2200"
-	"pitch" "-50"
-	"_cone" "35"
 	"_inner_cone" "60"
-	"angles" "-50 90 -180"
-	"style" "0"
 	"_light" "254 247 203 350"
 	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_linear_attn" "0"
+	"_quadratic_attn" "0.5"
+	"angles" "-50 90 -180"
+	"pitch" "-50"
+	"spawnflags" "0"
+	"style" "0"
 	"origin" "59.5094 -615.863 437.622"
 	editor
 	{
@@ -101190,12 +101201,12 @@ entity
 	"id" "119346"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "59.5094 -619.863 441.622"
 	editor
 	{
@@ -101211,12 +101222,12 @@ entity
 	"id" "119366"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-69.8625 3974.49 457.525"
 	editor
 	{
@@ -101232,12 +101243,12 @@ entity
 	"id" "119396"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-70.8625 4232.49 457.525"
 	editor
 	{
@@ -101253,12 +101264,12 @@ entity
 	"id" "119446"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-67.8625 3721.49 457.525"
 	editor
 	{
@@ -101274,12 +101285,12 @@ entity
 	"id" "119466"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-67.8625 3464.49 457.525"
 	editor
 	{
@@ -101295,12 +101306,12 @@ entity
 	"id" "119486"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-68.8625 3207.49 457.525"
 	editor
 	{
@@ -101316,12 +101327,12 @@ entity
 	"id" "119506"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-67.8625 2951.5 457.525"
 	editor
 	{
@@ -101337,12 +101348,12 @@ entity
 	"id" "119526"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-68.8625 2688.49 457.525"
 	editor
 	{
@@ -101358,12 +101369,12 @@ entity
 	"id" "119546"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-68.8625 2440.5 457.525"
 	editor
 	{
@@ -101379,12 +101390,12 @@ entity
 	"id" "119576"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"skin" "1"
-	"fademindist" "0.0"
 	"fademaxdist" "0.0"
-	"solid" "6"
-	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"fademindist" "0.0"
 	"fadescale" "1"
+	"model" "models/props_wasteland/prison_flourescentlight002b.mdl"
+	"skin" "1"
+	"solid" "6"
 	"origin" "-70.8625 2183.49 457.525"
 	editor
 	{
@@ -101399,13 +101410,13 @@ entity
 {
 	"id" "67030"
 	"classname" "point_spotlight"
+	"angles" "47.4937 89.2489 178.585"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "47.4937 89.2489 178.585"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "334 1956.99 730"
 	editor
 	{
@@ -101420,13 +101431,14 @@ entity
 {
 	"id" "67032"
 	"classname" "light_spot"
-	"angles" "-47.4937 89.2489 -178.585"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "50"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-47.4937 89.2489 -178.585"
 	"pitch" "-47.4937"
 	"origin" "334.034 1952.27 726.895"
 	editor
@@ -101442,13 +101454,13 @@ entity
 {
 	"id" "67725"
 	"classname" "point_spotlight"
+	"angles" "47.4937 89.2489 178.585"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "47.4937 89.2489 178.585"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "408.539 1956.99 729.984"
 	editor
 	{
@@ -101463,13 +101475,14 @@ entity
 {
 	"id" "67727"
 	"classname" "light_spot"
-	"angles" "-47.4937 89.2489 -178.585"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "50"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-47.4937 89.2489 -178.585"
 	"pitch" "-47.4937"
 	"origin" "408.573 1952.27 726.879"
 	editor
@@ -101485,13 +101498,13 @@ entity
 {
 	"id" "66953"
 	"classname" "point_spotlight"
+	"angles" "47.4937 89.2489 178.585"
+	"HDRColorScale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"angles" "47.4937 89.2489 178.585"
 	"spawnflags" "1"
 	"spotlightlength" "500"
 	"spotlightwidth" "50"
-	"HDRColorScale" "1.0"
 	"origin" "490 1957 730"
 	editor
 	{
@@ -101506,13 +101519,14 @@ entity
 {
 	"id" "66955"
 	"classname" "light_spot"
-	"angles" "-47.4937 89.2489 -178.585"
-	"_light" "255 255 255 200"
-	"_lightHDR" "-1 -1 -1 1"
-	"_quadratic_attn" "1"
-	"_inner_cone" "30"
 	"_cone" "50"
 	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-47.4937 89.2489 -178.585"
 	"pitch" "-47.4937"
 	"origin" "490 1952 727"
 	editor
@@ -101529,11 +101543,11 @@ entity
 	"id" "61508"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_rus2002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "424 1986 640"
 	editor
 	{
@@ -101549,11 +101563,11 @@ entity
 	"id" "61512"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_e002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "309 1986 641"
 	editor
 	{
@@ -101569,11 +101583,11 @@ entity
 	"id" "61516"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_k002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "367 1986 641"
 	editor
 	{
@@ -101589,11 +101603,11 @@ entity
 	"id" "61520"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_rus2002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "485 1986 640"
 	editor
 	{
@@ -101609,11 +101623,11 @@ entity
 	"id" "67732"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/lampfixture01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "408.539 1972 730.026"
 	editor
 	{
@@ -101629,11 +101643,11 @@ entity
 	"id" "66949"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/lampfixture01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "490 1973 730.042"
 	editor
 	{
@@ -101648,16 +101662,17 @@ entity
 {
 	"id" "126308"
 	"classname" "prop_door_rotating"
-	"angles" "0 270 0"
-	"hardware" "1"
 	"ajarangles" "0 0 0"
-	"distance" "90"
-	"speed" "100"
-	"returndelay" "-1"
-	"spawnflags" "8192"
+	"angles" "0 270 0"
 	"axis" "1437 2883.82 182, 1437 2883.82 182"
+	"distance" "90"
+	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"returndelay" "-1"
 	"skin" "4"
+	"spawnflags" "8192"
+	"speed" "100"
 	"origin" "1437 2883.82 182"
 	editor
 	{
@@ -101672,16 +101687,17 @@ entity
 {
 	"id" "126408"
 	"classname" "prop_door_rotating"
-	"angles" "0 270 0"
-	"hardware" "1"
 	"ajarangles" "0 0 0"
-	"distance" "90"
-	"speed" "100"
-	"returndelay" "-1"
-	"spawnflags" "8192"
+	"angles" "0 270 0"
 	"axis" "1323 2883.82 182.28, 1323 2883.82 182.28"
+	"distance" "90"
+	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"returndelay" "-1"
 	"skin" "4"
+	"spawnflags" "8192"
+	"speed" "100"
 	"origin" "1323 2883.82 182.281"
 	editor
 	{
@@ -101696,8 +101712,8 @@ entity
 {
 	"id" "111563"
 	"classname" "infodecal"
-	"texture" "decals/decalfont03002a"
 	"angles" "0 0 0"
+	"texture" "decals/decalfont03002a"
 	"origin" "109.02 5896.56 788.84"
 	editor
 	{
@@ -101712,8 +101728,8 @@ entity
 {
 	"id" "111566"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti001d"
 	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti001d"
 	"origin" "139.655 5882 714.912"
 	editor
 	{
@@ -101728,8 +101744,8 @@ entity
 {
 	"id" "111569"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti018a"
 	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti018a"
 	"origin" "323.319 5866 708.511"
 	editor
 	{
@@ -101744,8 +101760,8 @@ entity
 {
 	"id" "111572"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti010a"
 	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti010a"
 	"origin" "482.138 6010 712.737"
 	editor
 	{
@@ -101760,8 +101776,8 @@ entity
 {
 	"id" "111575"
 	"classname" "infodecal"
-	"texture" "decals/decalfont03003a"
 	"angles" "0 0 0"
+	"texture" "decals/decalfont03003a"
 	"origin" "609.395 6024.56 779.613"
 	editor
 	{
@@ -101776,8 +101792,8 @@ entity
 {
 	"id" "111578"
 	"classname" "infodecal"
-	"texture" "decals/decalposter007a"
 	"angles" "0 0 0"
+	"texture" "decals/decalposter007a"
 	"origin" "111.758 5896.56 997.07"
 	editor
 	{
@@ -101792,8 +101808,8 @@ entity
 {
 	"id" "111581"
 	"classname" "infodecal"
-	"texture" "decals/decalfont01007a"
 	"angles" "0 0 0"
+	"texture" "decals/decalfont01007a"
 	"origin" "106.158 5896.56 1264.95"
 	editor
 	{
@@ -101808,8 +101824,8 @@ entity
 {
 	"id" "111584"
 	"classname" "infodecal"
-	"texture" "decals/decalfont01008a"
 	"angles" "0 0 0"
+	"texture" "decals/decalfont01008a"
 	"origin" "576.326 6024.56 1269"
 	editor
 	{
@@ -101824,8 +101840,8 @@ entity
 {
 	"id" "111587"
 	"classname" "infodecal"
-	"texture" "decals/decalfont01006a"
 	"angles" "0 0 0"
+	"texture" "decals/decalfont01006a"
 	"origin" "-372 6224.56 1224.23"
 	editor
 	{
@@ -101840,8 +101856,8 @@ entity
 {
 	"id" "111590"
 	"classname" "infodecal"
-	"texture" "decals/decalposter003a"
 	"angles" "0 0 0"
+	"texture" "decals/decalposter003a"
 	"origin" "-357.257 6224.56 930.801"
 	editor
 	{
@@ -102835,8 +102851,8 @@ entity
 {
 	"id" "128641"
 	"classname" "infodecal"
-	"texture" "decals/decalfont03002a"
 	"angles" "0 90 0"
+	"texture" "decals/decalfont03002a"
 	"origin" "-1501.56 5285.02 540.84"
 	editor
 	{
@@ -102851,8 +102867,8 @@ entity
 {
 	"id" "128644"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti001d"
 	"angles" "0 90 0"
+	"texture" "decals/decalgraffiti001d"
 	"origin" "-1487 5315.66 466.912"
 	editor
 	{
@@ -102867,8 +102883,8 @@ entity
 {
 	"id" "128647"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti018a"
 	"angles" "0 90 0"
+	"texture" "decals/decalgraffiti018a"
 	"origin" "-1471 5499.32 460.511"
 	editor
 	{
@@ -102883,8 +102899,8 @@ entity
 {
 	"id" "128650"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti010a"
 	"angles" "0 90 0"
+	"texture" "decals/decalgraffiti010a"
 	"origin" "-1615 5658.14 464.737"
 	editor
 	{
@@ -102899,8 +102915,8 @@ entity
 {
 	"id" "128653"
 	"classname" "infodecal"
-	"texture" "decals/decalfont03003a"
 	"angles" "0 90 0"
+	"texture" "decals/decalfont03003a"
 	"origin" "-1629.56 5785.4 531.613"
 	editor
 	{
@@ -102915,8 +102931,8 @@ entity
 {
 	"id" "128656"
 	"classname" "infodecal"
-	"texture" "decals/decalposter007a"
 	"angles" "0 90 0"
+	"texture" "decals/decalposter007a"
 	"origin" "-1501.56 5287.76 749.07"
 	editor
 	{
@@ -102931,8 +102947,8 @@ entity
 {
 	"id" "128659"
 	"classname" "infodecal"
-	"texture" "decals/decalfont01007a"
 	"angles" "0 90 0"
+	"texture" "decals/decalfont01007a"
 	"origin" "-1501.56 5282.16 1016.95"
 	editor
 	{
@@ -102947,8 +102963,8 @@ entity
 {
 	"id" "128662"
 	"classname" "infodecal"
-	"texture" "decals/decalfont01008a"
 	"angles" "0 90 0"
+	"texture" "decals/decalfont01008a"
 	"origin" "-1629.56 5752.33 1021"
 	editor
 	{
@@ -102963,8 +102979,8 @@ entity
 {
 	"id" "128665"
 	"classname" "infodecal"
-	"texture" "decals/decalfont01006a"
 	"angles" "0 90 0"
+	"texture" "decals/decalfont01006a"
 	"origin" "-1829.56 4804 976.23"
 	editor
 	{
@@ -102979,8 +102995,8 @@ entity
 {
 	"id" "128668"
 	"classname" "infodecal"
-	"texture" "decals/decalposter003a"
 	"angles" "0 90 0"
+	"texture" "decals/decalposter003a"
 	"origin" "-1829.56 4818.74 682.801"
 	editor
 	{
@@ -103975,11 +103991,11 @@ entity
 	"id" "37463"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_rus2002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-787.35 -290.298 1025"
 	editor
 	{
@@ -103995,11 +104011,11 @@ entity
 	"id" "37393"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_e002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-786.35 -423.298 1025"
 	editor
 	{
@@ -104015,11 +104031,11 @@ entity
 	"id" "37389"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_k002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-786.35 -356.298 1025"
 	editor
 	{
@@ -104035,11 +104051,11 @@ entity
 	"id" "37374"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/sign_letter02_rus2002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-787.35 -221.298 1025"
 	editor
 	{
@@ -104055,11 +104071,11 @@ entity
 	"id" "37411"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/scaffolding01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-837.35 -320.298 1023"
 	editor
 	{
@@ -104075,11 +104091,11 @@ entity
 	"id" "23015"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/coolingtank02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-1013.05 -19 576.785"
 	editor
 	{
@@ -104095,11 +104111,11 @@ entity
 	"id" "22996"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/coolingtank02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-879.054 -19 576.785"
 	editor
 	{
@@ -104115,11 +104131,11 @@ entity
 	"id" "23019"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/coolingtank02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-1152.05 -19 576.785"
 	editor
 	{
@@ -104135,11 +104151,11 @@ entity
 	"id" "132380"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 4734.51 319.341"
 	editor
 	{
@@ -104155,11 +104171,11 @@ entity
 	"id" "132384"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 4734.51 319.341"
 	editor
 	{
@@ -104175,11 +104191,11 @@ entity
 	"id" "132389"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 5534.51 319.341"
 	editor
 	{
@@ -104195,11 +104211,11 @@ entity
 	"id" "132393"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 5534.51 319.341"
 	editor
 	{
@@ -104215,11 +104231,11 @@ entity
 	"id" "132500"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 3135.51 319.341"
 	editor
 	{
@@ -104235,11 +104251,11 @@ entity
 	"id" "132504"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 3135.51 319.341"
 	editor
 	{
@@ -104255,11 +104271,11 @@ entity
 	"id" "132509"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 3935.51 319.341"
 	editor
 	{
@@ -104275,11 +104291,11 @@ entity
 	"id" "132513"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 3935.51 319.341"
 	editor
 	{
@@ -104295,11 +104311,11 @@ entity
 	"id" "132580"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 1536.51 319.341"
 	editor
 	{
@@ -104315,11 +104331,11 @@ entity
 	"id" "132584"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 1536.51 319.341"
 	editor
 	{
@@ -104335,11 +104351,11 @@ entity
 	"id" "132589"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 2336.51 319.341"
 	editor
 	{
@@ -104355,11 +104371,11 @@ entity
 	"id" "132593"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 2336.51 319.341"
 	editor
 	{
@@ -104375,11 +104391,11 @@ entity
 	"id" "132680"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.755 -48.5111 319.341"
 	editor
 	{
@@ -104395,11 +104411,11 @@ entity
 	"id" "132684"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.755 -48.5111 319.341"
 	editor
 	{
@@ -104415,11 +104431,11 @@ entity
 	"id" "132689"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.245 737.511 319.341"
 	editor
 	{
@@ -104435,11 +104451,11 @@ entity
 	"id" "132693"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.245 737.511 319.341"
 	editor
 	{
@@ -104455,11 +104471,11 @@ entity
 	"id" "132760"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "286.755 4735.51 319.341"
 	editor
 	{
@@ -104475,11 +104491,11 @@ entity
 	"id" "132764"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "14.7551 4735.51 319.341"
 	editor
 	{
@@ -104495,11 +104511,11 @@ entity
 	"id" "132769"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "286.755 5535.51 319.341"
 	editor
 	{
@@ -104515,11 +104531,11 @@ entity
 	"id" "132773"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "14.7551 5535.51 319.341"
 	editor
 	{
@@ -104535,11 +104551,11 @@ entity
 	"id" "132820"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "809.755 4738.51 319.341"
 	editor
 	{
@@ -104555,11 +104571,11 @@ entity
 	"id" "132824"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "537.755 4738.51 319.341"
 	editor
 	{
@@ -104575,11 +104591,11 @@ entity
 	"id" "132829"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "809.755 5538.51 319.341"
 	editor
 	{
@@ -104595,11 +104611,11 @@ entity
 	"id" "132833"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "537.755 5538.51 319.341"
 	editor
 	{
@@ -104615,11 +104631,11 @@ entity
 	"id" "135825"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "776 5974 244"
 	editor
 	{
@@ -104636,11 +104652,11 @@ entity
 	"id" "135756"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train005.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "775 5977.44 159"
 	editor
 	{
@@ -104657,11 +104673,11 @@ entity
 	"id" "155122"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "636.259 224.216 148"
 	editor
 	{
@@ -104677,11 +104693,11 @@ entity
 	"id" "155110"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "636.259 287.216 148"
 	editor
 	{
@@ -104697,11 +104713,11 @@ entity
 	"id" "155102"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "636.259 350.216 148"
 	editor
 	{
@@ -104717,11 +104733,11 @@ entity
 	"id" "155067"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "636.259 413.216 148"
 	editor
 	{
@@ -104737,11 +104753,11 @@ entity
 	"id" "160303"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "3.89745 224.216 148"
 	editor
 	{
@@ -104757,11 +104773,11 @@ entity
 	"id" "160307"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "3.89745 287.216 148"
 	editor
 	{
@@ -104777,11 +104793,11 @@ entity
 	"id" "160311"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "3.89745 350.216 148"
 	editor
 	{
@@ -104797,11 +104813,11 @@ entity
 	"id" "160315"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "3.89745 413.216 148"
 	editor
 	{
@@ -104817,11 +104833,11 @@ entity
 	"id" "160420"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "411.761 633.102 148"
 	editor
 	{
@@ -104837,11 +104853,11 @@ entity
 	"id" "160436"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "348.761 633.102 148"
 	editor
 	{
@@ -104857,11 +104873,11 @@ entity
 	"id" "160452"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "285.761 633.102 148"
 	editor
 	{
@@ -104877,11 +104893,11 @@ entity
 	"id" "160460"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "222.761 633.102 148"
 	editor
 	{
@@ -104897,11 +104913,11 @@ entity
 	"id" "160498"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "412.216 4.10255 148"
 	editor
 	{
@@ -104917,11 +104933,11 @@ entity
 	"id" "160502"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "349.216 4.10255 148"
 	editor
 	{
@@ -104937,11 +104953,11 @@ entity
 	"id" "160506"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "286.216 4.10255 148"
 	editor
 	{
@@ -104957,11 +104973,11 @@ entity
 	"id" "160510"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "223.216 4.10255 148"
 	editor
 	{
@@ -104977,11 +104993,11 @@ entity
 	"id" "160548"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "608.017 472.983 148"
 	editor
 	{
@@ -104997,11 +105013,11 @@ entity
 	"id" "160572"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "563.017 517.983 148"
 	editor
 	{
@@ -105017,11 +105033,11 @@ entity
 	"id" "160596"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "518.072 563.039 148"
 	editor
 	{
@@ -105037,11 +105053,11 @@ entity
 	"id" "160600"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "473.072 608.039 148"
 	editor
 	{
@@ -105057,11 +105073,11 @@ entity
 	"id" "160655"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "166.055 30.0557 148"
 	editor
 	{
@@ -105077,11 +105093,11 @@ entity
 	"id" "160659"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "121.055 75.0557 148"
 	editor
 	{
@@ -105097,11 +105113,11 @@ entity
 	"id" "160663"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "76.1098 120.111 148"
 	editor
 	{
@@ -105117,11 +105133,11 @@ entity
 	"id" "160667"
 	"classname" "prop_static"
 	"angles" "0 45 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "31.1098 165.111 148"
 	editor
 	{
@@ -105137,11 +105153,11 @@ entity
 	"id" "160740"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "474.944 31.0549 148"
 	editor
 	{
@@ -105157,11 +105173,11 @@ entity
 	"id" "160736"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "519.944 76.0549 148"
 	editor
 	{
@@ -105177,11 +105193,11 @@ entity
 	"id" "160720"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "565 121 148"
 	editor
 	{
@@ -105197,11 +105213,11 @@ entity
 	"id" "160688"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "610 166 148"
 	editor
 	{
@@ -105217,11 +105233,11 @@ entity
 	"id" "160794"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "30.8886 474.11 148"
 	editor
 	{
@@ -105237,11 +105253,11 @@ entity
 	"id" "160798"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "75.8886 519.11 148"
 	editor
 	{
@@ -105257,11 +105273,11 @@ entity
 	"id" "160802"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "120.944 564.055 148"
 	editor
 	{
@@ -105277,11 +105293,11 @@ entity
 	"id" "160806"
 	"classname" "prop_static"
 	"angles" "0 135 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_medium.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "165.944 609.055 148"
 	editor
 	{
@@ -105296,11 +105312,13 @@ entity
 {
 	"id" "8324"
 	"classname" "light_environment"
-	"angles" "0 200  0"
-	"_light" "237 232 209 70"
 	"_ambient" "122 140 169 60"
-	"_lightHDR" "-1 -1 -1 1"
 	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "237 232 209 70"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "0 200  0"
 	"pitch" "-5"
 	"origin" "-1395 511 1613"
 	editor
@@ -105316,11 +105334,11 @@ entity
 	"id" "14433"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train003.mdl"
 	"skin" "2"
+	"solid" "6"
 	"origin" "-464 -60.7188 229"
 	editor
 	{
@@ -105336,11 +105354,11 @@ entity
 	"id" "14865"
 	"classname" "path_corner"
 	"angles" "0 0 0"
-	"wait" "0"
 	"speed" "0"
-	"yaw_speed" "0"
-	"targetname" "path_corner1"
 	"target" "path_corner2"
+	"targetname" "path_corner1"
+	"wait" "0"
+	"yaw_speed" "0"
 	"origin" "936 237 472"
 	editor
 	{
@@ -105355,8 +105373,8 @@ entity
 	"id" "14868"
 	"classname" "path_corner"
 	"angles" "0 0 0"
-	"targetname" "path_corner2"
 	"target" "path_corner3"
+	"targetname" "path_corner2"
 	"origin" "906 -115 749"
 	editor
 	{
@@ -105371,8 +105389,8 @@ entity
 	"id" "14871"
 	"classname" "path_corner"
 	"angles" "0 0 0"
-	"targetname" "path_corner3"
 	"target" "path_corner4"
+	"targetname" "path_corner3"
 	"origin" "-25 -509 796"
 	editor
 	{
@@ -105387,8 +105405,8 @@ entity
 	"id" "14874"
 	"classname" "path_corner"
 	"angles" "0 0 0"
-	"targetname" "path_corner4"
 	"target" "path_corner1"
+	"targetname" "path_corner4"
 	"origin" "-67 472 480"
 	editor
 	{
@@ -105455,12 +105473,12 @@ entity
 	"id" "15060"
 	"classname" "ambient_generic"
 	"health" "10"
+	"message" "ambient/atmosphere/tone_quiet.wav"
 	"pitch" "100"
 	"pitchstart" "100"
+	"preset" "7"
 	"radius" "7000"
 	"spawnflags" "1"
-	"message" "ambient/atmosphere/tone_quiet.wav"
-	"preset" "7"
 	"targetname" "Ambient"
 	"origin" "648.141 59.7249 137"
 	editor
@@ -105476,10 +105494,10 @@ entity
 	"id" "15218"
 	"classname" "npc_crow"
 	"angles" "0 0 0"
+	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "4"
-	"physdamagescale" "1.0"
 	"target" "path_corner1"
 	"origin" "-202 1043 138.182"
 	editor
@@ -105496,10 +105514,10 @@ entity
 	"id" "15220"
 	"classname" "npc_crow"
 	"angles" "0 0 0"
+	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "4"
-	"physdamagescale" "1.0"
 	"target" "path_corner1"
 	"origin" "-113 1074 138.182"
 	editor
@@ -105516,10 +105534,10 @@ entity
 	"id" "15222"
 	"classname" "npc_crow"
 	"angles" "0 0 0"
+	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "4"
-	"physdamagescale" "1.0"
 	"target" "path_corner1"
 	"origin" "-465 -1023 138.182"
 	editor
@@ -105536,11 +105554,11 @@ entity
 	"id" "16709"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train003.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "-463.783 -615.719 228.857"
 	editor
 	{
@@ -105556,11 +105574,11 @@ entity
 	"id" "16717"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train003.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-269.783 -797.719 228.857"
 	editor
 	{
@@ -105576,15 +105594,16 @@ entity
 	"id" "17501"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-30 -214 197"
 	editor
 	{
@@ -105600,15 +105619,16 @@ entity
 	"id" "17528"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-75 -213 197"
 	editor
 	{
@@ -105624,15 +105644,16 @@ entity
 	"id" "17532"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-76 -286 197"
 	editor
 	{
@@ -105648,15 +105669,16 @@ entity
 	"id" "17536"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-30 -287 197"
 	editor
 	{
@@ -105672,15 +105694,16 @@ entity
 	"id" "17540"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-30 -288 239"
 	editor
 	{
@@ -105696,15 +105719,16 @@ entity
 	"id" "17544"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-30 -217 240"
 	editor
 	{
@@ -105720,15 +105744,16 @@ entity
 	"id" "17548"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-78 -214 240"
 	editor
 	{
@@ -105744,15 +105769,16 @@ entity
 	"id" "17552"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-76 -286 240"
 	editor
 	{
@@ -105768,15 +105794,16 @@ entity
 	"id" "17556"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-30 -360 197"
 	editor
 	{
@@ -105792,15 +105819,16 @@ entity
 	"id" "17560"
 	"classname" "prop_physics"
 	"angles" "0 307 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/pushcart01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/pushcart01a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-70 -434 210"
 	editor
 	{
@@ -105843,8 +105871,8 @@ entity
 {
 	"id" "17909"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti017a"
 	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti017a"
 	"origin" "-2 -564 235.424"
 	editor
 	{
@@ -105929,11 +105957,11 @@ entity
 	"id" "22182"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/truck001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "133 -754 187"
 	editor
 	{
@@ -105949,11 +105977,11 @@ entity
 	"id" "22213"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/truck001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "140 -896 187"
 	editor
 	{
@@ -105969,11 +105997,11 @@ entity
 	"id" "22229"
 	"classname" "prop_static"
 	"angles" "0 175.5 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/truck003a.mdl"
 	"skin" "3"
+	"solid" "6"
 	"origin" "166 -1027 187"
 	editor
 	{
@@ -106016,8 +106044,8 @@ entity
 {
 	"id" "22388"
 	"classname" "info_node"
-	"nodeid" "13"
 	"angles" "0 0 0"
+	"nodeid" "13"
 	"origin" "492 -195 640"
 	editor
 	{
@@ -106032,11 +106060,11 @@ entity
 	"id" "23058"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/light_signal002a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-268 1198 402"
 	editor
 	{
@@ -106051,11 +106079,11 @@ entity
 	"id" "23109"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/tracksign01.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-372 464.593 165"
 	editor
 	{
@@ -106070,10 +106098,10 @@ entity
 	"id" "26819"
 	"classname" "npc_zombie_torso"
 	"angles" "0 180 0"
+	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "4"
-	"physdamagescale" "1.0"
 	"origin" "56 1065 129"
 	editor
 	{
@@ -106089,10 +106117,10 @@ entity
 	"id" "26823"
 	"classname" "npc_zombie_torso"
 	"angles" "0 180 0"
+	"physdamagescale" "1.0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
 	"spawnflags" "4"
-	"physdamagescale" "1.0"
 	"origin" "1011 390 129"
 	editor
 	{
@@ -106163,11 +106191,11 @@ entity
 	"id" "36753"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "57 1116.49 231.265"
 	editor
 	{
@@ -106183,11 +106211,11 @@ entity
 	"id" "37317"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/roof_vent004.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1398 503 905"
 	editor
 	{
@@ -106202,11 +106230,11 @@ entity
 	"id" "37332"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/roof_vent004.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1399 442 905"
 	editor
 	{
@@ -106221,11 +106249,11 @@ entity
 	"id" "37336"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/roof_vent004.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1401 381 905"
 	editor
 	{
@@ -106240,11 +106268,11 @@ entity
 	"id" "37355"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/antenna02a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1333 -686.188 749"
 	editor
 	{
@@ -106301,11 +106329,11 @@ entity
 	"id" "37737"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/shrub_01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1296 -462 137"
 	editor
 	{
@@ -106321,11 +106349,11 @@ entity
 	"id" "37779"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/tree_deciduous_03a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "714 527 137"
 	editor
 	{
@@ -106341,11 +106369,11 @@ entity
 	"id" "37790"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/tree_deciduous_01a.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "1074 490 137"
 	editor
 	{
@@ -106361,11 +106389,11 @@ entity
 	"id" "37805"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/shrub_01a.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "918 847 137"
 	editor
 	{
@@ -106381,11 +106409,11 @@ entity
 	"id" "38749"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "584 1150.49 228.265"
 	editor
 	{
@@ -106401,11 +106429,11 @@ entity
 	"id" "38753"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "584 1607.49 228.265"
 	editor
 	{
@@ -106421,11 +106449,11 @@ entity
 	"id" "38769"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/light_signal002a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "158 1194 402"
 	editor
 	{
@@ -106440,11 +106468,11 @@ entity
 	"id" "38777"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/light_signal002a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "700 1196 402"
 	editor
 	{
@@ -106459,11 +106487,11 @@ entity
 	"id" "48667"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-463.217 1324.49 228"
 	editor
 	{
@@ -106479,11 +106507,11 @@ entity
 	"id" "50370"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "61 2823 228"
 	editor
 	{
@@ -106499,11 +106527,11 @@ entity
 	"id" "50374"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "61 2367 228"
 	editor
 	{
@@ -106519,11 +106547,11 @@ entity
 	"id" "50382"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "774.128 3273 228.265"
 	editor
 	{
@@ -106539,11 +106567,11 @@ entity
 	"id" "50386"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "583.128 2742 228.265"
 	editor
 	{
@@ -106559,11 +106587,11 @@ entity
 	"id" "50390"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "-272 2982 228"
 	editor
 	{
@@ -106579,11 +106607,11 @@ entity
 	"id" "50394"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "-463.217 868.486 225"
 	editor
 	{
@@ -106682,8 +106710,8 @@ entity
 {
 	"id" "61675"
 	"classname" "infodecal"
-	"texture" "decals/decalfont03001a"
 	"angles" "0 0 0"
+	"texture" "decals/decalfont03001a"
 	"origin" "411 1992 353"
 	editor
 	{
@@ -106712,11 +106740,11 @@ entity
 	"id" "63408"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train001.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "254 2666 245"
 	editor
 	{
@@ -106733,11 +106761,11 @@ entity
 	"id" "63412"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train001.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "254 3295 245"
 	editor
 	{
@@ -106753,8 +106781,8 @@ entity
 {
 	"id" "64090"
 	"classname" "infodecal"
-	"texture" "decals/decalconcretedrain001a"
 	"angles" "0 0 0"
+	"texture" "decals/decalconcretedrain001a"
 	"origin" "343 -1296 176.772"
 	editor
 	{
@@ -106768,8 +106796,8 @@ entity
 {
 	"id" "64093"
 	"classname" "infodecal"
-	"texture" "decals/decalconcretedrain001a"
 	"angles" "0 0 0"
+	"texture" "decals/decalconcretedrain001a"
 	"origin" "297 -1296 176.767"
 	editor
 	{
@@ -106784,11 +106812,11 @@ entity
 	"id" "64114"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1016 -1287 292"
 	editor
 	{
@@ -106804,11 +106832,11 @@ entity
 	"id" "64157"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "507 -1287 292"
 	editor
 	{
@@ -106824,11 +106852,11 @@ entity
 	"id" "64181"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-2 -1287 292"
 	editor
 	{
@@ -106844,11 +106872,11 @@ entity
 	"id" "64189"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-511 -1287 292"
 	editor
 	{
@@ -106864,15 +106892,16 @@ entity
 	"id" "65220"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "957 -1401 277"
 	editor
 	{
@@ -106887,15 +106916,16 @@ entity
 	"id" "65251"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "1"
+	"spawnflags" "256"
 	"origin" "567 -1404 277"
 	editor
 	{
@@ -106910,15 +106940,16 @@ entity
 	"id" "65255"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "2"
+	"spawnflags" "256"
 	"origin" "362 -1677 277"
 	editor
 	{
@@ -106933,15 +106964,16 @@ entity
 	"id" "65267"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "356 -1817 277"
 	editor
 	{
@@ -106956,15 +106988,16 @@ entity
 	"id" "65271"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "2"
+	"spawnflags" "256"
 	"origin" "356 -1817 406"
 	editor
 	{
@@ -106979,15 +107012,16 @@ entity
 	"id" "65299"
 	"classname" "prop_physics"
 	"angles" "0 96 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01c.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01c.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "-901 -1380 277"
 	editor
 	{
@@ -107002,15 +107036,16 @@ entity
 	"id" "65338"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "1"
+	"spawnflags" "256"
 	"origin" "252 -1545 277"
 	editor
 	{
@@ -107025,15 +107060,16 @@ entity
 	"id" "66366"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "781 -1821 277"
 	editor
 	{
@@ -107048,15 +107084,16 @@ entity
 	"id" "66370"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "1637 -1513 277"
 	editor
 	{
@@ -107071,15 +107108,16 @@ entity
 	"id" "66374"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "1633 -1669 277"
 	editor
 	{
@@ -107094,15 +107132,16 @@ entity
 	"id" "66378"
 	"classname" "prop_physics"
 	"angles" "0 270 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "1637 -1845 277"
 	editor
 	{
@@ -107117,11 +107156,11 @@ entity
 	"id" "66447"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/cranes/crane_frame.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-952.453 -2194 248"
 	editor
 	{
@@ -107136,11 +107175,11 @@ entity
 	"id" "66466"
 	"classname" "prop_static"
 	"angles" "0 235.5 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/cranes/crane_body_lod.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-952.453 -2193 652"
 	editor
 	{
@@ -107155,11 +107194,11 @@ entity
 	"id" "66497"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/cranes/crane_frame.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-952.579 -3164.53 248"
 	editor
 	{
@@ -107174,11 +107213,11 @@ entity
 	"id" "66501"
 	"classname" "prop_static"
 	"angles" "0 48 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/cranes/crane_body_lod.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-952.579 -3158 652"
 	editor
 	{
@@ -107193,11 +107232,11 @@ entity
 	"id" "66528"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/lights_industrialcluster01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "835.666 -1607.31 600"
 	editor
 	{
@@ -107212,11 +107251,11 @@ entity
 	"id" "66547"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/lights_industrialcluster01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-530 -1613 600"
 	editor
 	{
@@ -107231,11 +107270,11 @@ entity
 	"id" "66743"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/truck002a_cab.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-25 1544 567"
 	editor
 	{
@@ -107251,11 +107290,11 @@ entity
 	"id" "66945"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/lampfixture01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "334 1972 730.042"
 	editor
 	{
@@ -107283,11 +107322,11 @@ entity
 	"id" "86807"
 	"classname" "prop_static"
 	"angles" "0 171.5 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/car002a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1039 -1127 151"
 	editor
 	{
@@ -107302,15 +107341,16 @@ entity
 	"id" "88699"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "42 -184 197"
 	editor
 	{
@@ -107326,15 +107366,16 @@ entity
 	"id" "88707"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "88 -184 197"
 	editor
 	{
@@ -107350,15 +107391,16 @@ entity
 	"id" "88711"
 	"classname" "prop_physics"
 	"angles" "0 70.5 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "83 -262 197"
 	editor
 	{
@@ -107374,15 +107416,16 @@ entity
 	"id" "88723"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "45 -557 197"
 	editor
 	{
@@ -107398,15 +107441,16 @@ entity
 	"id" "88727"
 	"classname" "prop_physics"
 	"angles" "0 0 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/wood_crate002a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/wood_crate002a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "96 -557 197"
 	editor
 	{
@@ -107422,15 +107466,16 @@ entity
 	"id" "88731"
 	"classname" "prop_physics"
 	"angles" "0 307 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_junk/pushcart01a.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_junk/pushcart01a.mdl"
 	"skin" "0"
+	"spawnflags" "256"
 	"origin" "235 -252 162"
 	editor
 	{
@@ -107445,31 +107490,32 @@ entity
 {
 	"id" "88747"
 	"classname" "prop_physics"
-	"rendercolor" "255 255 255"
-	"renderamt" "255"
-	"spawnflags" "256"
-	"forcetoenablemotion" "0"
+	"angles" "-0.012855 329.902 0.081545"
 	"damagetoenablemotion" "0"
-	"massScale" "0"
-	"inertiaScale" "1.0"
-	"nodamageforces" "0"
 	"Damagetype" "0"
-	"physdamagescale" "0.1"
-	"shadowcastdist" "0"
-	"minhealthdmg" "0"
-	"pressuredelay" "0"
-	"PerformanceMode" "0"
-	"ExplodeRadius" "0"
+	"disableshadows" "0"
 	"ExplodeDamage" "0"
-	"fadescale" "1"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"disableshadows" "0"
-	"skin" "0"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"angles" "-0.012855 329.902 0.081545"
+	"minhealthdmg" "0"
 	"model" "models/props_C17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
 	"origin" "167 -589 128.305"
 	editor
 	{
@@ -107483,31 +107529,32 @@ entity
 {
 	"id" "88763"
 	"classname" "prop_physics"
-	"rendercolor" "255 255 255"
-	"renderamt" "255"
-	"spawnflags" "256"
-	"forcetoenablemotion" "0"
+	"angles" "-0.012855 329.902 0.081545"
 	"damagetoenablemotion" "0"
-	"massScale" "0"
-	"inertiaScale" "1.0"
-	"nodamageforces" "0"
 	"Damagetype" "0"
-	"physdamagescale" "0.1"
-	"shadowcastdist" "0"
-	"minhealthdmg" "0"
-	"pressuredelay" "0"
-	"PerformanceMode" "0"
-	"ExplodeRadius" "0"
+	"disableshadows" "0"
 	"ExplodeDamage" "0"
-	"fadescale" "1"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"disableshadows" "0"
-	"skin" "0"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"angles" "-0.012855 329.902 0.081545"
+	"minhealthdmg" "0"
 	"model" "models/props_C17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
 	"origin" "215 -587 128.305"
 	editor
 	{
@@ -107521,31 +107568,32 @@ entity
 {
 	"id" "88767"
 	"classname" "prop_physics"
-	"rendercolor" "255 255 255"
-	"renderamt" "255"
-	"spawnflags" "256"
-	"forcetoenablemotion" "0"
+	"angles" "-0.012855 329.902 0.081545"
 	"damagetoenablemotion" "0"
-	"massScale" "0"
-	"inertiaScale" "1.0"
-	"nodamageforces" "0"
 	"Damagetype" "0"
-	"physdamagescale" "0.1"
-	"shadowcastdist" "0"
-	"minhealthdmg" "0"
-	"pressuredelay" "0"
-	"PerformanceMode" "0"
-	"ExplodeRadius" "0"
+	"disableshadows" "0"
 	"ExplodeDamage" "0"
-	"fadescale" "1"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"disableshadows" "0"
-	"skin" "0"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"angles" "-0.012855 329.902 0.081545"
+	"minhealthdmg" "0"
 	"model" "models/props_C17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
 	"origin" "260 -585 128.305"
 	editor
 	{
@@ -107559,31 +107607,32 @@ entity
 {
 	"id" "88771"
 	"classname" "prop_physics"
-	"rendercolor" "255 255 255"
-	"renderamt" "255"
-	"spawnflags" "256"
-	"forcetoenablemotion" "0"
+	"angles" "-0.012855 329.902 0.081545"
 	"damagetoenablemotion" "0"
-	"massScale" "0"
-	"inertiaScale" "1.0"
-	"nodamageforces" "0"
 	"Damagetype" "0"
-	"physdamagescale" "0.1"
-	"shadowcastdist" "0"
-	"minhealthdmg" "0"
-	"pressuredelay" "0"
-	"PerformanceMode" "0"
-	"ExplodeRadius" "0"
+	"disableshadows" "0"
 	"ExplodeDamage" "0"
-	"fadescale" "1"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"disableshadows" "0"
-	"skin" "0"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"angles" "-0.012855 329.902 0.081545"
+	"minhealthdmg" "0"
 	"model" "models/props_C17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
 	"origin" "187 -561 128.305"
 	editor
 	{
@@ -107597,31 +107646,32 @@ entity
 {
 	"id" "88775"
 	"classname" "prop_physics"
-	"rendercolor" "255 255 255"
-	"renderamt" "255"
-	"spawnflags" "256"
-	"forcetoenablemotion" "0"
+	"angles" "-0.012855 329.902 0.081545"
 	"damagetoenablemotion" "0"
-	"massScale" "0"
-	"inertiaScale" "1.0"
-	"nodamageforces" "0"
 	"Damagetype" "0"
-	"physdamagescale" "0.1"
-	"shadowcastdist" "0"
-	"minhealthdmg" "0"
-	"pressuredelay" "0"
-	"PerformanceMode" "0"
-	"ExplodeRadius" "0"
+	"disableshadows" "0"
 	"ExplodeDamage" "0"
-	"fadescale" "1"
+	"ExplodeRadius" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
-	"disableshadows" "0"
-	"skin" "0"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"inertiaScale" "1.0"
+	"massScale" "0"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"angles" "-0.012855 329.902 0.081545"
+	"minhealthdmg" "0"
 	"model" "models/props_C17/oildrum001_explosive.mdl"
+	"modelscale" "1.0"
+	"nodamageforces" "0"
+	"PerformanceMode" "0"
+	"physdamagescale" "0.1"
+	"pressuredelay" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"shadowcastdist" "0"
+	"skin" "0"
+	"spawnflags" "256"
 	"origin" "235 -561 128.305"
 	editor
 	{
@@ -107636,11 +107686,11 @@ entity
 	"id" "88795"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/horizontalcoolingtank04.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1212 -665 188"
 	editor
 	{
@@ -107655,11 +107705,11 @@ entity
 	"id" "88830"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/horizontalcoolingtank04.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1212 -986 188"
 	editor
 	{
@@ -107674,11 +107724,11 @@ entity
 	"id" "88834"
 	"classname" "prop_static"
 	"angles" "-90 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/substation_transformer01b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "707 -386 676"
 	editor
 	{
@@ -107693,15 +107743,16 @@ entity
 	"id" "90004"
 	"classname" "prop_physics"
 	"angles" "0 181.5 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "1"
+	"spawnflags" "256"
 	"origin" "-1311 -1731 277"
 	editor
 	{
@@ -107716,15 +107767,16 @@ entity
 	"id" "90016"
 	"classname" "prop_physics"
 	"angles" "0 181.5 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "1"
+	"spawnflags" "256"
 	"origin" "-1311 -2144 277"
 	editor
 	{
@@ -107739,15 +107791,16 @@ entity
 	"id" "90024"
 	"classname" "prop_physics"
 	"angles" "0 183.5 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "2"
+	"spawnflags" "256"
 	"origin" "-1330 -1983 406"
 	editor
 	{
@@ -107762,11 +107815,11 @@ entity
 	"id" "90427"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train001.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "-462 1888 245"
 	editor
 	{
@@ -107782,11 +107835,11 @@ entity
 	"id" "90751"
 	"classname" "prop_static"
 	"angles" "0 330.5 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/tanker001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-520 -1804 288"
 	editor
 	{
@@ -107801,11 +107854,11 @@ entity
 	"id" "90810"
 	"classname" "prop_static"
 	"angles" "-87.0417 250.684 97.2899"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "902 451 148"
 	editor
 	{
@@ -107821,11 +107874,11 @@ entity
 	"id" "90943"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/tree_deciduous_03a.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "1028 789 137"
 	editor
 	{
@@ -107840,16 +107893,16 @@ entity
 {
 	"id" "92067"
 	"classname" "prop_static"
-	"model" "models/props_wasteland/powertower01.mdl"
 	"angles" "0 270 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/powertower01.mdl"
 	"skin" "0"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "3260 855 1205"
 	editor
 	{
@@ -107864,16 +107917,16 @@ entity
 {
 	"id" "92071"
 	"classname" "prop_static"
-	"model" "models/props_wasteland/powertower01.mdl"
 	"angles" "0 270 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/powertower01.mdl"
 	"skin" "0"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "3413 -1087 1205"
 	editor
 	{
@@ -107889,11 +107942,11 @@ entity
 	"id" "92075"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/overpass_001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2482 1407 391.869"
 	editor
 	{
@@ -107909,11 +107962,11 @@ entity
 	"id" "92250"
 	"classname" "prop_static"
 	"angles" "0 309 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_buildings/project_building03.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "6713 -100 137"
 	editor
 	{
@@ -107929,11 +107982,11 @@ entity
 	"id" "92269"
 	"classname" "prop_static"
 	"angles" "0 295 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_buildings/project_building03.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "6663 -1838 137"
 	editor
 	{
@@ -107949,11 +108002,11 @@ entity
 	"id" "94039"
 	"classname" "prop_static"
 	"angles" "-88.5 221.5 180"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-372 5938 186"
 	editor
 	{
@@ -107969,11 +108022,11 @@ entity
 	"id" "94123"
 	"classname" "prop_static"
 	"angles" "-88.5 348.5 180"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train005.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "60 5921 186"
 	editor
 	{
@@ -107989,11 +108042,11 @@ entity
 	"id" "95061"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2176.48 904.517 588"
 	editor
 	{
@@ -108008,11 +108061,11 @@ entity
 	"id" "95100"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence003a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1792.37 1225.03 204"
 	editor
 	{
@@ -108027,11 +108080,11 @@ entity
 	"id" "95247"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence003b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1792 1237 203"
 	editor
 	{
@@ -108046,11 +108099,11 @@ entity
 	"id" "95278"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_junk/trashdumpster02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1921 1091 192"
 	editor
 	{
@@ -108064,16 +108117,16 @@ entity
 {
 	"id" "91589"
 	"classname" "prop_static"
-	"model" "models/props_foliage/tree_deciduous_card_01.mdl"
 	"angles" "0 203 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_foliage/tree_deciduous_card_01.mdl"
 	"skin" "1"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "3332 6303 277"
 	editor
 	{
@@ -108088,16 +108141,16 @@ entity
 {
 	"id" "91593"
 	"classname" "prop_static"
-	"model" "models/props_foliage/tree_deciduous_card_01.mdl"
 	"angles" "0 165 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_foliage/tree_deciduous_card_01.mdl"
 	"skin" "1"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "3210 2920.62 341"
 	editor
 	{
@@ -108112,16 +108165,16 @@ entity
 {
 	"id" "91597"
 	"classname" "prop_static"
-	"model" "models/props_wasteland/powertower01.mdl"
 	"angles" "0 270 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/powertower01.mdl"
 	"skin" "0"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "3152 3149 1205"
 	editor
 	{
@@ -108136,16 +108189,16 @@ entity
 {
 	"id" "91601"
 	"classname" "prop_static"
-	"model" "models/props_wasteland/powertower01.mdl"
 	"angles" "0 285 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_wasteland/powertower01.mdl"
 	"skin" "0"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "4269 6660 1205"
 	editor
 	{
@@ -108160,16 +108213,16 @@ entity
 {
 	"id" "91611"
 	"classname" "prop_static"
-	"model" "models/props_foliage/tree_deciduous_card_01.mdl"
 	"angles" "0 195 0"
-	"mindxlevel" "0"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
 	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_foliage/tree_deciduous_card_01.mdl"
 	"skin" "1"
 	"solid" "0"
-	"disableshadows" "1"
-	"fademindist" "-1"
-	"fademaxdist" "0"
-	"fadescale" "1"
 	"origin" "3178 -128.38 341"
 	editor
 	{
@@ -108185,11 +108238,11 @@ entity
 	"id" "95608"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2039.48 767.517 588"
 	editor
 	{
@@ -108204,11 +108257,11 @@ entity
 	"id" "95641"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002d.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1949.37 1225.03 204"
 	editor
 	{
@@ -108223,11 +108276,11 @@ entity
 	"id" "95673"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/substation_transformer01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2139 767 589"
 	editor
 	{
@@ -108242,11 +108295,11 @@ entity
 	"id" "96065"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/tracksign07.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-112 5879 180"
 	editor
 	{
@@ -108261,11 +108314,11 @@ entity
 	"id" "96123"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/tracksign07.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "412 5880 180"
 	editor
 	{
@@ -108280,11 +108333,11 @@ entity
 	"id" "97232"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_canal/refinery_05.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-3154 6002 137"
 	editor
 	{
@@ -108300,11 +108353,11 @@ entity
 	"id" "97277"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_buildings/project_building03.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "6448 4045 137"
 	editor
 	{
@@ -108320,11 +108373,11 @@ entity
 	"id" "97281"
 	"classname" "prop_static"
 	"angles" "0 266 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_buildings/project_building02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "6419 3134 137"
 	editor
 	{
@@ -108340,11 +108393,11 @@ entity
 	"id" "100422"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/prison_lamp001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "409 2055 719"
 	editor
 	{
@@ -108359,11 +108412,11 @@ entity
 	"id" "100462"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/prison_lamp001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "412 3208 719"
 	editor
 	{
@@ -108378,11 +108431,11 @@ entity
 	"id" "100470"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/prison_lamp001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "417 4360 719"
 	editor
 	{
@@ -108397,11 +108450,11 @@ entity
 	"id" "102334"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1992 1859 208"
 	editor
 	{
@@ -108416,11 +108469,11 @@ entity
 	"id" "102392"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1925 3797 196"
 	editor
 	{
@@ -108435,11 +108488,11 @@ entity
 	"id" "102408"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1847 3160 205"
 	editor
 	{
@@ -108454,11 +108507,11 @@ entity
 	"id" "102784"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_junk/trashdumpster02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2035 3666 192"
 	editor
 	{
@@ -108473,11 +108526,11 @@ entity
 	"id" "102792"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_junk/trashdumpster02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1988 3479 192"
 	editor
 	{
@@ -108492,11 +108545,11 @@ entity
 	"id" "102796"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_junk/trashdumpster02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1945 3299 192"
 	editor
 	{
@@ -108511,11 +108564,11 @@ entity
 	"id" "102896"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_junk/trashdumpster02.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2027 2743 192"
 	editor
 	{
@@ -108530,11 +108583,11 @@ entity
 	"id" "114671"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/substation_circuitbreaker01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1051 5987 532"
 	editor
 	{
@@ -108549,11 +108602,11 @@ entity
 	"id" "115008"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train001.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-273 6496 245"
 	editor
 	{
@@ -108569,11 +108622,11 @@ entity
 	"id" "115024"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train001.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-464 7058 245"
 	editor
 	{
@@ -108589,11 +108642,11 @@ entity
 	"id" "115155"
 	"classname" "prop_static"
 	"angles" "-88.5 201 -180"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train002.mdl"
 	"skin" "2"
+	"solid" "6"
 	"origin" "140 6424 186"
 	editor
 	{
@@ -108609,15 +108662,16 @@ entity
 	"id" "115186"
 	"classname" "prop_physics"
 	"angles" "-90 177.5 0"
-	"spawnflags" "256"
-	"physdamagescale" "0.1"
-	"inertiaScale" "1.0"
 	"fademindist" "-1"
 	"fadescale" "1"
+	"inertiaScale" "1.0"
+	"model" "models/props_wasteland/cargo_container01.mdl"
+	"modelscale" "1.0"
+	"physdamagescale" "0.1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"model" "models/props_wasteland/cargo_container01.mdl"
 	"skin" "1"
+	"spawnflags" "256"
 	"origin" "188 5847 195"
 	editor
 	{
@@ -108633,11 +108687,11 @@ entity
 	"id" "115298"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_canal/refinery_05.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-2939 3124 137"
 	editor
 	{
@@ -108653,11 +108707,11 @@ entity
 	"id" "116790"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/tree_deciduous_01a-lod.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "1071 5013 137"
 	editor
 	{
@@ -108673,11 +108727,11 @@ entity
 	"id" "116798"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/tree_deciduous_01a.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "1016 4647 137"
 	editor
 	{
@@ -108693,11 +108747,11 @@ entity
 	"id" "119622"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/truck002a_cab.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1476 1403 567"
 	editor
 	{
@@ -108713,11 +108767,11 @@ entity
 	"id" "119629"
 	"classname" "prop_static"
 	"angles" "-11 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/car003a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "300 1236 535"
 	editor
 	{
@@ -108732,11 +108786,11 @@ entity
 	"id" "121784"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_debris/barricade_short04a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-1 6440 137"
 	editor
 	{
@@ -108751,11 +108805,11 @@ entity
 	"id" "121795"
 	"classname" "prop_static"
 	"angles" "0 0 65"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_debris/barricade_tall02a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "575 6671 183"
 	editor
 	{
@@ -108770,11 +108824,11 @@ entity
 	"id" "121821"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_debris/concrete_chunk01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "673 6696 128"
 	editor
 	{
@@ -108789,11 +108843,11 @@ entity
 	"id" "122008"
 	"classname" "prop_static"
 	"angles" "49 0 11.5"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_debris/barricade_short03a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "12 6654 289.268"
 	editor
 	{
@@ -108849,8 +108903,8 @@ entity
 {
 	"id" "122318"
 	"classname" "infodecal"
-	"texture" "decals/decal_signprotection009a"
 	"angles" "0 0 0"
+	"texture" "decals/decal_signprotection009a"
 	"origin" "760 -171 209"
 	editor
 	{
@@ -108976,8 +109030,8 @@ entity
 {
 	"id" "122348"
 	"classname" "infodecal"
-	"texture" "decals/decalposter007a"
 	"angles" "0 0 0"
+	"texture" "decals/decalposter007a"
 	"origin" "-881 4458 483"
 	editor
 	{
@@ -109019,8 +109073,8 @@ entity
 {
 	"id" "122357"
 	"classname" "infodecal"
-	"texture" "decals/decalposter004a"
 	"angles" "0 0 0"
+	"texture" "decals/decalposter004a"
 	"origin" "1400 4215 405"
 	editor
 	{
@@ -109034,8 +109088,8 @@ entity
 {
 	"id" "122384"
 	"classname" "infodecal"
-	"texture" "decals/decalstain011a"
 	"angles" "0 0 0"
+	"texture" "decals/decalstain011a"
 	"origin" "1215 4424 442"
 	editor
 	{
@@ -109049,8 +109103,8 @@ entity
 {
 	"id" "122393"
 	"classname" "infodecal"
-	"texture" "decals/plaster018a"
 	"angles" "0 0 0"
+	"texture" "decals/plaster018a"
 	"origin" "0 -568 204"
 	editor
 	{
@@ -109092,8 +109146,8 @@ entity
 {
 	"id" "122408"
 	"classname" "infodecal"
-	"texture" "decals/decalgraffiti003a"
 	"angles" "0 0 0"
+	"texture" "decals/decalgraffiti003a"
 	"origin" "-115 1336.48 180"
 	editor
 	{
@@ -109206,11 +109260,11 @@ entity
 	"id" "129595"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_canal/refinery_05.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1877 8429 805"
 	editor
 	{
@@ -109226,11 +109280,11 @@ entity
 	"id" "129642"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_canal/refinery_05.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "667 8463 805"
 	editor
 	{
@@ -109246,11 +109300,11 @@ entity
 	"id" "129738"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.898 3588.57 452"
 	editor
 	{
@@ -109265,11 +109319,11 @@ entity
 	"id" "129765"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.898 4097.57 452"
 	editor
 	{
@@ -109284,11 +109338,11 @@ entity
 	"id" "129777"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.797 4606 452"
 	editor
 	{
@@ -109303,11 +109357,11 @@ entity
 	"id" "129781"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.797 5115 452"
 	editor
 	{
@@ -109322,11 +109376,11 @@ entity
 	"id" "129801"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.898 5623.57 452"
 	editor
 	{
@@ -109341,11 +109395,11 @@ entity
 	"id" "129849"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.898 3079.57 452"
 	editor
 	{
@@ -109360,11 +109414,11 @@ entity
 	"id" "129853"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.797 2571 452"
 	editor
 	{
@@ -109379,11 +109433,11 @@ entity
 	"id" "129857"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-631.797 2062 452"
 	editor
 	{
@@ -109398,11 +109452,11 @@ entity
 	"id" "129865"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_wasteland/exterior_fence002e.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-632 919 452"
 	editor
 	{
@@ -109417,11 +109471,11 @@ entity
 	"id" "132865"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-237.755 -1144.51 319.341"
 	editor
 	{
@@ -109436,11 +109490,11 @@ entity
 	"id" "132869"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-509.755 -1144.51 319.341"
 	editor
 	{
@@ -109455,11 +109509,11 @@ entity
 	"id" "132897"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "286.245 831.489 319.341"
 	editor
 	{
@@ -109474,11 +109528,11 @@ entity
 	"id" "132901"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "14.2449 831.489 319.341"
 	editor
 	{
@@ -109493,11 +109547,11 @@ entity
 	"id" "132921"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "809.755 832.489 319.341"
 	editor
 	{
@@ -109512,11 +109566,11 @@ entity
 	"id" "132925"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/pole_384connection001b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "537.755 832.489 319.341"
 	editor
 	{
@@ -109531,11 +109585,11 @@ entity
 	"id" "132940"
 	"classname" "prop_static"
 	"angles" "0 0 180"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/utilityconnecter006.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "39 4435 385"
 	editor
 	{
@@ -109550,14 +109604,14 @@ entity
 	"id" "134296"
 	"classname" "prop_static"
 	"angles" "0 290.5 0"
+	"disableselfshadowing" "0"
+	"disablevertexlighting" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/trailer001a.mdl"
+	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"screenspacefade" "0"
-	"disablevertexlighting" "0"
-	"disableselfshadowing" "0"
 	"origin" "1334 5186 196"
 	editor
 	{
@@ -109572,11 +109626,11 @@ entity
 	"id" "135508"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/roof_vent004.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1705.83 6133.9 889.078"
 	editor
 	{
@@ -109591,11 +109645,11 @@ entity
 	"id" "135519"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/roof_vent004.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1761 6135 889.078"
 	editor
 	{
@@ -109610,11 +109664,11 @@ entity
 	"id" "135523"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/antenna01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1710.6 6506 1274"
 	editor
 	{
@@ -109629,11 +109683,11 @@ entity
 	"id" "135550"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/antenna01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1567 6498 1274"
 	editor
 	{
@@ -109648,11 +109702,11 @@ entity
 	"id" "135554"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/antenna01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1478 6054 988"
 	editor
 	{
@@ -109667,11 +109721,11 @@ entity
 	"id" "135570"
 	"classname" "prop_static"
 	"angles" "0 181 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_rooftop/rooftopcluser01a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "2248 5952 823.472"
 	editor
 	{
@@ -109686,11 +109740,11 @@ entity
 	"id" "135597"
 	"classname" "prop_static"
 	"angles" "0 91 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/substation_transformer01c.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1336 6052 749"
 	editor
 	{
@@ -109705,11 +109759,11 @@ entity
 	"id" "135636"
 	"classname" "prop_static"
 	"angles" "-90 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/substation_transformer01b.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "1246 6090 660"
 	editor
 	{
@@ -109724,11 +109778,11 @@ entity
 	"id" "135697"
 	"classname" "prop_static"
 	"angles" "0 11 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_vehicles/truck001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-230.581 -1441 275"
 	editor
 	{
@@ -109743,11 +109797,11 @@ entity
 	"id" "135783"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_trainstation/train003.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "582 6573 229"
 	editor
 	{
@@ -109763,11 +109817,11 @@ entity
 	"id" "116782"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_foliage/tree_deciduous_01a.mdl"
 	"skin" "1"
+	"solid" "6"
 	"origin" "1030 5421 137"
 	editor
 	{
@@ -109852,8 +109906,8 @@ entity
 {
 	"id" "139025"
 	"classname" "infodecal"
-	"texture" "decals/decalconcretedrain002a"
 	"angles" "0 0 0"
+	"texture" "decals/decalconcretedrain002a"
 	"origin" "233 631 -11"
 	editor
 	{
@@ -109867,8 +109921,8 @@ entity
 {
 	"id" "139028"
 	"classname" "infodecal"
-	"texture" "decals/decalconcretedrain002a"
 	"angles" "0 0 0"
+	"texture" "decals/decalconcretedrain002a"
 	"origin" "407 631 -11"
 	editor
 	{
@@ -109883,11 +109937,11 @@ entity
 	"id" "139055"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/concrete_pipe001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "0 248 -48"
 	editor
 	{
@@ -109902,11 +109956,11 @@ entity
 	"id" "139071"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/concrete_pipe001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "0 372 -48"
 	editor
 	{
@@ -109921,11 +109975,11 @@ entity
 	"id" "137245"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/concrete_pipe001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "673.481 257.992 64"
 	editor
 	{
@@ -109940,11 +109994,11 @@ entity
 	"id" "137280"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/concrete_pipe001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "673.481 378.992 62"
 	editor
 	{
@@ -109959,11 +110013,11 @@ entity
 	"id" "155022"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_canal/canal_bars001.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "60 312 -228"
 	editor
 	{
@@ -109978,11 +110032,11 @@ entity
 	"id" "155130"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "535 187 20"
 	editor
 	{
@@ -109997,11 +110051,11 @@ entity
 	"id" "155153"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "408 187 20"
 	editor
 	{
@@ -110016,11 +110070,11 @@ entity
 	"id" "155165"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "234 186 20"
 	editor
 	{
@@ -110035,11 +110089,11 @@ entity
 	"id" "155173"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "108 186 20"
 	editor
 	{
@@ -110054,11 +110108,11 @@ entity
 	"id" "155198"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "297 250 20"
 	editor
 	{
@@ -110073,11 +110127,11 @@ entity
 	"id" "155222"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "297 386 20"
 	editor
 	{
@@ -110092,11 +110146,11 @@ entity
 	"id" "155230"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "343.259 250.835 20"
 	editor
 	{
@@ -110111,11 +110165,11 @@ entity
 	"id" "155234"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "343 387 20"
 	editor
 	{
@@ -110130,11 +110184,11 @@ entity
 	"id" "155246"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "360 450 20"
 	editor
 	{
@@ -110149,11 +110203,11 @@ entity
 	"id" "155273"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "281 450 20"
 	editor
 	{
@@ -110168,11 +110222,11 @@ entity
 	"id" "155281"
 	"classname" "prop_static"
 	"angles" "0 270 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "497 450 20"
 	editor
 	{
@@ -110187,11 +110241,11 @@ entity
 	"id" "155289"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_long.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "144 450 20"
 	editor
 	{
@@ -110205,16 +110259,17 @@ entity
 {
 	"id" "156291"
 	"classname" "prop_door_rotating"
-	"angles" "0 270 0"
-	"hardware" "1"
 	"ajarangles" "0 0 0"
-	"distance" "90"
-	"speed" "100"
-	"returndelay" "-1"
-	"spawnflags" "8192"
+	"angles" "0 270 0"
 	"axis" "296 3.81 54.28, 296 3.81 54.28"
+	"distance" "90"
+	"hardware" "1"
 	"model" "models/props_c17/door01_left.mdl"
+	"modelscale" "1.0"
+	"returndelay" "-1"
 	"skin" "6"
+	"spawnflags" "8192"
+	"speed" "100"
 	"origin" "296 3.81966 54.2813"
 	editor
 	{
@@ -110242,8 +110297,8 @@ entity
 {
 	"id" "156459"
 	"classname" "infodecal"
-	"texture" "decals/decalsigndanger001b"
 	"angles" "0 0 0"
+	"texture" "decals/decalsigndanger001b"
 	"origin" "370 8 78"
 	editor
 	{
@@ -110313,8 +110368,8 @@ entity
 {
 	"id" "156483"
 	"classname" "infodecal"
-	"texture" "decals/plaster013a"
 	"angles" "0 0 0"
+	"texture" "decals/plaster013a"
 	"origin" "545 531.329 63"
 	editor
 	{
@@ -110328,8 +110383,8 @@ entity
 {
 	"id" "156534"
 	"classname" "water_lod_control"
-	"cheapwaterstartdistance" "1000"
 	"cheapwaterenddistance" "2000"
+	"cheapwaterstartdistance" "1000"
 	"origin" "185.846 327.007 -66"
 	editor
 	{
@@ -110344,11 +110399,11 @@ entity
 	"id" "159927"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/concrete_pipe001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-107 372 -48"
 	editor
 	{
@@ -110363,11 +110418,11 @@ entity
 	"id" "159951"
 	"classname" "prop_static"
 	"angles" "0 180 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_pipes/concrete_pipe001a.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "-107 248 -48"
 	editor
 	{
@@ -110382,11 +110437,11 @@ entity
 	"id" "160029"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "578 450 20"
 	editor
 	{
@@ -110401,11 +110456,11 @@ entity
 	"id" "160041"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "609 450 20"
 	editor
 	{
@@ -110420,11 +110475,11 @@ entity
 	"id" "160058"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "64 450 20"
 	editor
 	{
@@ -110439,11 +110494,11 @@ entity
 	"id" "160070"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "32 450 20"
 	editor
 	{
@@ -110458,11 +110513,11 @@ entity
 	"id" "160086"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "29 186 20"
 	editor
 	{
@@ -110477,11 +110532,11 @@ entity
 	"id" "160146"
 	"classname" "prop_static"
 	"angles" "0 90 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_short.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "615 187 20"
 	editor
 	{
@@ -110496,11 +110551,11 @@ entity
 	"id" "160214"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_cap.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "297 321 20"
 	editor
 	{
@@ -110515,11 +110570,11 @@ entity
 	"id" "160233"
 	"classname" "prop_static"
 	"angles" "0 0 0"
-	"solid" "6"
 	"fademindist" "-1"
 	"fadescale" "1"
 	"model" "models/props_c17/handrail04_cap.mdl"
 	"skin" "0"
+	"solid" "6"
 	"origin" "343 322 20"
 	editor
 	{
@@ -110527,6 +110582,24 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "163397"
+	"classname" "item_suit"
+	"angles" "0 0 0"
+	"disableshadows" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"origin" "-114 897 129"
+	editor
+	{
+		"color" "0 0 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 cameras
